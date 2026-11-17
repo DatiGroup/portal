@@ -1,0 +1,18 @@
+services:
+  digital-twins-frontend:
+    image: digital-twins-frontend
+    build: .
+    command: sh -c "yarn install && yarn run start"
+    ports:
+      - '5173:5173'
+    networks:
+      - DigitalTwinsNetwork
+    volumes:
+      - .:/app/projects/DigitalTwinsFrontend
+    env_file:
+      - DigitalTwinsFrontend.env
+
+networks:
+  DigitalTwinsNetwork:
+    name: DigitalTwinsNetwork
+    external: true
