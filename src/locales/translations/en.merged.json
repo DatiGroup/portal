@@ -1,0 +1,307 @@
+{
+  "home": "Home",
+  "email": "Email",
+  "userName": "User name",
+  "password": "Password",
+  "repeatPassword": "Repeat Password",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "fullName": " Full name",
+  "preferredLang": "Preferred Language",
+  "selectLanguage": "Select Language",
+  "xcharacters": "{{x}}+ characters",
+  "forgotPassword": "Forgot Password",
+  "approvalStatus": "Approval status",
+  "send": "Send",
+  "continue": "Continue",
+  "logout": "Logout",
+  "close": "Close",
+  "validator": {
+    "required": "Required",
+    "email": "Wrong email format",
+    "strongPassword": "Password is weak",
+    "notMatch": "Passwords do not match",
+    "min": "Minimum {{min}}",
+    "max": "Maximum {{max}}",
+    "enum": "Must be one of the allowed values",
+    "positive": "Must be a positive number",
+    "isoDateTime": "Must be a valid ISO date-time string",
+    "number": "Must be a number",
+    "integer": "Must be an integer",
+    "otpCodeRequired": "OTP code is required",
+    "otpCodeLength": "OTP code must be exactly 6 characters",
+    "userName": {
+      "letterCheck": "User name can only contain letters, numbers, and ._@+- characters",
+      "dotSeriesCheck": "User name cannot contain consecutive dots",
+      "dotEdgesCheck": "User name cannot start or end with a dot"
+    },
+    "password": {
+      "lowerCaseCheck": "Password must contain at least one lowercase letter",
+      "upperCaseCheck": "Password must contain at least one uppercase letter",
+      "digitCheck": "Password must contain at least one digit",
+      "specialCharCheck": "Password must contain at least one special character"
+    }
+  },
+  "alerts": {
+    "genericSuccess": "Operation successful",
+    "genericError": "Something went wrong",
+    "error": "Failed",
+    "networkError": "Network error",
+    "passwordReset": "Successfully reset password.",
+    "audioFileTooLarge": "Audio file is too large. Maximum size is {{maxSize}} MB.",
+    "uploadAborted": "Upload aborted.",
+    "failedToUpload": "Failed to upload audio file.",
+    "invalidFileType": "Invalid file type. Please upload an audio file.",
+    "forbiddedn": "You do not have permission to perform this action.",
+    "notFound": "The requested resource was not found",
+    "tooManyRequests": "Too many requests. Please try again later.",
+    "loading": "Loading"
+  },
+  "ApprovalRequestStatusEnum": {
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "invite": "Invite"
+  },
+  "ApprovalActionEnum": {
+    "approved": "Approved",
+    "rejected": "Rejected"
+  },
+  "view": "View",
+  "approve": "Approve",
+  "reject": "Reject",
+  "platformUsers": "Platform Users",
+  "personalDetails": "Personal Details",
+  "startDate": "Start Date",
+  "endDate": "End Date",
+  "accessManagement": "Access Management",
+  "status": "Status",
+  "enabled": "Enabled",
+  "disabled": "Disabled",
+  "unknown": "Unknown",
+  "roles": "Roles",
+  "noData": "No data",
+  "assignedToKcGroup": "Assigned to group",
+  "minRequiredApprovals": "Minimum required approvals",
+  "currentApprovalsCount": "Approved count",
+  "createdDate": "Created date",
+  "action": "Action",
+  "actedByUser": "Performed by user",
+  "comments": "Comments",
+  "actedAt": "Acted at",
+  "assignedToUser": "Assigned to user",
+  "submit": "Submit",
+  "rejectReasonOptional": "Enter optional reason for rejection",
+  "rejectRegistration": "Reject user registration",
+  "AdminActionEnum": {
+    "enable": "Enable user",
+    "disable": "Disable user",
+    "change_role": "Change user role"
+  },
+  "accessManagementLog": "Access Management Log",
+  "rolesAdded": "Roles Added",
+  "rolesRemoved": "Roles Removed",
+  "userStatusApprovalTooltip": "You can change user status, if it was previously approved. Check approval requests below.",
+  "userStatusTooltip": "Status in identity access management system.",
+  "register": {
+    "haveAccount": "Already have an account?",
+    "createAccount": "Create an account",
+    "registerTerms": " By signing up, you agree to our <serviceTerms>Terms of Service</serviceTerms> and <privacyPolicy>Privacy Policy</privacyPolicy>.",
+    "registrationFailed": "Registration failed. Please try again.",
+    "registrationSuccess": "Thanks for registering! We will review your application and get back to you shortly.",
+    "selectCountry": "Select Country",
+    "organizationName": "Organization Name",
+    "registrationNumber": "Registration Number",
+    "contactName": "Contact Name",
+    "contactLastName": "Contact Last Name",
+    "contactEmail": "Contact Email"
+  },
+  "iam": {
+    "seeApprovalRequests": "See approval requests",
+    "approver": "Approver",
+    "approvalRequests": "Approval Requests",
+    "disableUser": "Disable User",
+    "enableUser": "Enable User"
+  },
+  "nothingFound": "Nothing Found",
+  "drawer": {
+    "title": {
+      "tool-group": "Tools",
+      "monitoring-group": "Monitoring",
+      "theming-group": "Theming",
+      "configurator-group": "Configurator"
+    },
+    "caption": {},
+    "item": {
+      "portal-dashboard": "Dashboard",
+      "portal-documentation": "Documentation",
+      "portal-support": "Support",
+      "lookups": "Types",
+      "configurator": "Configurator",
+      "platform-users": "Platform Users",
+      "service-health": "Service Health",
+      "audit-logs": "Audit Logs",
+      "statistics": "Statistics",
+      "reports": "Reports",
+      "appearance-palettes": "Appearance & Palettes",
+      "audio-transcription": "Audio Transcription",
+      "ai-chat": "AI Chat",
+      "configurator-resources": "Resources",
+      "configurator-products": "Products",
+      "org-members": "Organization users"
+    }
+  },
+  "lookups": {
+    "index": "Types",
+    "addLookup": "New types",
+    "addValue": "New value",
+    "types": {
+      "meaning": "Product Types",
+      "description": "Product Descriptions",
+      "actions": "Actions",
+      "values": "Values"
+    },
+    "values": {
+      "meaning": "Meaning",
+      "description": "Description",
+      "enabled": "Enabled",
+      "disabled": "Disabled",
+      "editable": "Editable",
+      "constant": "Constant",
+      "startDateActive": "Start Date Active",
+      "endDateActive": "End Date Active"
+    }
+  },
+  "lookupAdd": {
+    "type": "Type",
+    "addNewLookup": "Add New Type",
+    "errorMessage": "Type creation failed",
+    "errorTlMessage": "Type translation failed"
+  },
+  "lookupValues": {
+    "add": "New \"{{type}}\""
+  },
+  "lookupValueAdd": {
+    "addNewValue": "Add New Value",
+    "valueCode": "Value Code",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "enable": "Enable",
+    "autoTranslate": "Auto translate",
+    "languageName": "Language",
+    "meaning": "Meaning",
+    "description": "Description",
+    "errorMessage": "Lookup value creation failed",
+    "errorTlMessage": "Lookup value translation failed",
+    "purpose": "Purpose"
+  },
+  "configurator": {
+    "index": "Configurator",
+    "parentResource": "Parent Resource",
+    "droppableHeader": "Drag & Drop preferable resource type here",
+    "droppableSubHeader": "This will be the parent branch",
+    "errorMessage": "Failed to add resource dependency",
+    "relationshipType": "Relationship type",
+    "resources": "Resources",
+    "products": "Products",
+    "productAdd": "Add Product",
+    "productResources": "Product Resources",
+    "droppableProductHeader": "Drag & Drop product resource here",
+    "droppableProductSubHeader": "This will create product resource tree",
+    "productEdit": "Configure Product",
+    "resourceType": "Resource Type",
+    "productType": "Product Type",
+    "valueType": "Value Type",
+    "value": "Value",
+    "order": "Order",
+    "tabDirection": "Tab Direction",
+    "saveEdit": "Save Product"
+  },
+  "org": {
+    "orgDetails": "Organization Details",
+    "name": "Name",
+    "registrationNumber": "Registration Number",
+    "owner": "Owner",
+    "relEndDate": "Relationship End Date"
+  },
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "langCodes": {
+    "en": "English",
+    "ru": "Russian",
+    "lv": "Latvian",
+    "de": "German",
+    "fi": "Finnish"
+  },
+  "audio": {
+    "recordingLanguage": "Select recording language",
+    "pressToRecord": "Press to start/stop recording",
+    "transcribing": "Transcribing...",
+    "uploading": "Uploading...",
+    "startTranscription": "Start Transcription",
+    "microphonePermissionDenied": "Microphone permission denied. Please allow access to the microphone.",
+    "microphoneNotFound": "No microphone found. Please connect a microphone and try again.",
+    "microphoneError": "An error occurred while accessing the microphone.",
+    "microphoneNotSupported": "Your browser does not support the microphone or you are using http"
+  },
+  "aiChat": {
+    "thinking": "AI is thinking...",
+    "typing": "Typing...",
+    "askSomething": "Ask me anything...",
+    "model": "Model"
+  },
+  "adminEmail": {
+    "email": "Admin email",
+    "info": "User approval requests will be sent to this email address."
+  },
+  "backToLogin": "Back to Login",
+  "dontHaveAccount": "Don't have an account?",
+  "resetPassword": {
+    "resetEmail": "Email where to send password reset link",
+    "invalidResetLink": "Wrong password reset link.",
+    "changePasword": "Change Password",
+    "changePaswordSubtitle": "Please enter new password",
+    "emailSent": "Password reset link will be sent shortly to your email.",
+    "missingEmail": "Missing email parameter.",
+    "otpTitle": "OTP verification",
+    "otpSubtitleTitle": "We send you email with OTP code. Please enter code below",
+    "passwordResetSuccess": "Your password has been successfully reset. You can now log in with your new password."
+  },
+  "invitation": {
+    "createInvitation": "Create invitation",
+    "inviteCreated": "Invitation created.",
+    "status": "Invitation status",
+    "sendInvitation": "Send invitation",
+    "invitationSend": "Invitation sent.",
+    "acceptInvitation": "Accept invitation",
+    "acceptTopTitle": "To accept invitaion, confirm your email by enterering OTP code",
+    "otpCodeSent": "OTP code sent to your email. Please check email and enter code below.",
+    "getOtpCode": "Get OTP Code",
+    "inviteList": "Invitation List",
+    "userList": "User List",
+    "statuList": {
+      "accepted": "Accepted",
+      "expired": "Expired",
+      "pending": "Pending",
+      "notFound": "Not Found"
+    },
+    "actionList": {
+      "resend": "Resend",
+      "revoke": "Revoke"
+    }
+  },
+  "ordersProducts": {
+    "orderVPC": "Order VPC",
+    "order": "Order",
+    "create": "Create",
+    "requestReceived": "Your request is received",
+    "requestFailed": "Failed to process your request"
+  },
+  "footer": {
+    "copyright": "© {{year}}, All Rights Reserved to <url>{{brandName}}</url>",
+    "privacyPolicy": "Privacy Policy",
+    "termsAndConditions": "Terms and Conditions"
+  },
+  "brandName": "Demo",
+  "brandUrl": "https://www.rtu.lv"
+}

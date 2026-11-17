@@ -1,0 +1,13 @@
+export enum FndTypeEnum {
+  TEST_TYPE = 'TEST_TYPE',
+  PRODUCT_DEPENDENCIES = 'PRODUCT_DEPENDENCIES',
+  RESOURCE_TYPE = 'RESOURCE_TYPE',
+  TAB_TYPE = 'TAB_TYPE',
+  VALUE_TYPE = 'VALUE_TYPE',
+  SECRET_TYPE = 'SECRET_TYPE'
+}
+
+export enum ResourceRelationEnum {
+  DIRECT = 'DIRECT',
+  CATALOG = 'CATALOG'
+}
